@@ -1,0 +1,30 @@
+<div class="container">
+    <div *ngIf="!showAll">
+        <h2 class="pipeTitle"> {{product?.pipeName}} </h2>
+        <div class="flex-column">
+            <div class="discription" [innerHTML] ="product?.discription"></div>
+            <div class="row image-container">
+                <div class="image-item" *ngFor='let productImage of product?.images'>
+                    <img [src]="productImage" alt="pr-sample23" />
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div *ngIf="showAll">
+        <h1><b>We are leading pipe manufacturer. We manufactured using world-class raw material and technology.</b>
+        </h1>
+        <h2>Our Products</h2>
+        <div *ngFor='let product of productDetails'>
+            <h2 class="pipeTitle"> {{product?.pipeName}} </h2>
+            <div class="flex-column">
+                <div class="discription" [innerHTML] ="product?.shortDiscription"></div>
+                <div class="row image-container">
+                    <div class="image-item" *ngFor='let productImage of product?.images'>
+                        <img [src]="productImage" alt="pr-sample23" />
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+    

@@ -1,0 +1,17 @@
+<div>
+  <!-- <mat-toolbar color="primary" class="toolbar-primary">
+    <mat-toolbar-row>
+      <img [src]="logoImage" class="logo" alt="ManuMa Pipes logo">
+      <span class="fill-remaining-space"></span>
+      <div>
+        <a class ="nav-button" mat-button routerLink="/home" routerLinkActive="active">Home</a>
+        <a class ="nav-button" mat-button  routerLink="/products" routerLinkActive="active">Our Products</a>
+        <a class ="nav-button" mat-button routerLink="/companyInfo" routerLinkActive="active">Company Brief</a>
+        <a class ="nav-button" mat-button routerLink="/contactUs" routerLinkActive="active">Contact Us</a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar> -->
+  <app-header></app-header>
+  <router-outlet class="content"></router-outlet>
+</div>
+<app-footer  class="footer"></app-footer>

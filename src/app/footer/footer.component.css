@@ -1,0 +1,80 @@
+.footer {
+    background-color: rgb(32 27 27);
+    margin-top: 60px;
+    padding:10px;
+  }
+  
+  .footer .footer-data1 {
+    border-bottom: 1px solid #ccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .footer .footer-data2 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .footer .footer-data2 a {
+    margin-right: 5px;
+  }
+  
+  .footer .footer-data1 a {
+    color: rgb(253, 241, 241);
+    text-decoration: none;
+    cursor: pointer;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    /* ...and now for the proper property */
+    transition: .5s;
+  }
+  
+  .footer .footer-data1 a:hover {
+    color: #13b8aa;
+  }
+  
+  @media screen and (min-width:768px) {
+    .footer-menu2 {
+      text-align: right;
+    }
+  }
+
+   .footer .blurb_title {
+    font-family: 'AvenirLTStdLight', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0px 15px 0px;
+  }
+  
+
+ .footer .footer_blurb {
+    display: inline-block;
+    width: 100%;
+    font-family: 'AvenirLTStdLight', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    vertical-align: top;/*padding: 0 45px;*/
+    padding: 0 28px;}
+  
+.social  img{
+    width: 32px;
+    height: 32px;
+    margin:5px; 
+}
+
+.header {
+    font-size: 30px;
+    font-weight: 400;
+    color: #482ab4;
+}
+
+.copyRight {
+    text-align: center;
+    color: white;
+}
+
+.copyRight p {
+  margin:10px;
+}

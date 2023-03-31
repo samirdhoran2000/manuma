@@ -1,0 +1,17 @@
+<div class="container">
+    <a class="box" routerLink="/detail/{{pipe.id}}" *ngFor='let pipe of pipeImage'>
+        <div>
+            <div class="imgBx">
+                <img [src]="pipe.img" alt="pr-sample23" />
+            </div>
+            <div class="content">
+                <div>
+                  <h2>{{ pipe.pipeName}}</h2>
+                  <p>{{ pipe.discription}}
+                  </p>
+                </div>
+              </div>
+        </div>
+        <h2 class="pipe-Title">{{ pipe.pipeName}}</h2>
+    </a>
+  </div>

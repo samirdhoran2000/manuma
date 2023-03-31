@@ -1,0 +1,93 @@
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 5px;
+  }
+
+  .container {
+    padding:20px;
+    position: relative;
+    max-width: 1160px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    margin: auto;
+    margin-top:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  /* @media screen and (max-width: 600px){ */
+   @media screen and (max-width: 768px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+      
+    }
+
+  
+  }
+  
+  /* Style the counter cards */
+  .card {
+    color: #ffffff;
+    background-color: #854aec;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      background-image: none;
+      --animation-custom_in-translate_x: 0px;
+      --animation-custom_in-translate_y: 300px;
+      --animation-custom_in-opacity: 0;
+      --animation-custom_in-rotate: 0deg;
+      --animation-custom_in-scale: 1;
+      
+      will-change: transform, opacity;
+      animation-duration: 1500ms;
+      border-radius: 12px !important;
+  }
+  
+  .counterText {
+      font-size: 4.5rem;
+      font-weight: 700;
+      margin: 20px auto 0;
+      color: #1dd3e5 !important;
+      word-wrap: break-word;
+      position: relative;
+  }
+  
+  .fa {font-size:50px;}
+
+  .text {
+    width: 100%;
+    float: left;
+    font-weight: 300;
+    font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    margin: 0;
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 30px;
+  }
+
+  .text-container {
+    margin-bottom: 20px;
+  }
+  
+
+        .container {
+          padding: 40px;
+        }

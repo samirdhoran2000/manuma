@@ -1,0 +1,12 @@
+.product-caption{
+    margin-block: 0;
+    display: table;
+    margin-left: 40px;
+    padding-top: 40px;
+    color: #2980b9;
+}
+
+.product-container {
+   background-color:  #fab115;
+   margin-top: 20px;
+}

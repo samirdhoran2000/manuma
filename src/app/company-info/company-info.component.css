@@ -1,0 +1,24 @@
+.company-title{
+    font-weight: 300;
+    font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+
+.container {
+    margin: 20px;
+}
+#abtdesc:hover{
+background-color: rgba(35, 30, 30, 0.822);
+color: aliceblue;
+border-radius: 13px;
+}
+#abtdesc {
+   padding: 5px;
+}
+
+
+
+
+

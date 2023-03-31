@@ -1,0 +1,15 @@
+
+<a (click)="directTo()" class="thumbnail">
+    <img [src]="product.img">
+    <div class="caption">
+        <h2>{{product.name}}</h2>
+        <p *ngIf="product.onSale" class="price">
+            <del>Rs{{product.costPrice}}</del>
+            <span class="sale">Rs{{product.salePrice}}</span>
+        </p>
+        <p *ngIf="!product.onSale" class="price">
+            <span>Rs{{product.costPrice}}</span>
+            <del style="visibility: hidden">not on sale</del>
+        </p>
+    </div>
+</a>
